@@ -1,4 +1,4 @@
-package controller;
+package com.customer.api.customer_api.controller;
 
 import java.util.List;
 import java.util.UUID;
@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import entity.Customer;
+import com.customer.api.customer_api.entity.Customer;
 import jakarta.validation.Valid;
-import service.CustomerService;
+import com.customer.api.customer_api.service.CustomerService;
 
 @RestController
 @RequestMapping("/api/customers")

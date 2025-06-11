@@ -1,4 +1,4 @@
-package service;
+package com.customer.api.customer_api.service;
 
 import java.util.List;
 import java.util.UUID;
@@ -6,8 +6,8 @@ import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import entity.Customer;
-import repository.CustomerRepository;
+import com.customer.api.customer_api.entity.Customer;
+import com.customer.api.customer_api.repository.CustomerRepository;
 
 @Service
 public class CustomerService {
